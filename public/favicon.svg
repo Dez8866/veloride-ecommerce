@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e8e8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#c0c0c0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a8a8a8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0088ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Bike Wheel -->
+  <circle cx="80" cy="160" r="52" fill="none" stroke="url(#silver)" stroke-width="8"/>
+  <circle cx="80" cy="160" r="52" fill="none" stroke="url(#blue)" stroke-width="3" opacity="0.6"/>
+  <circle cx="80" cy="160" r="12" fill="url(#silver)"/>
+  <line x1="80" y1="160" x2="80" y2="108" stroke="url(#silver)" stroke-width="3"/>
+  <line x1="80" y1="160" x2="125" y2="138" stroke="url(#silver)" stroke-width="3"/>
+  <line x1="80" y1="160" x2="125" y2="182" stroke="url(#silver)" stroke-width="3"/>
+  <line x1="80" y1="160" x2="35" y2="138" stroke="url(#silver)" stroke-width="3"/>
+  <line x1="80" y1="160" x2="35" y2="182" stroke="url(#silver)" stroke-width="3"/>
+  
+  <!-- Car Silhouette -->
+  <path d="M 140 120 L 160 100 L 200 100 L 220 120 L 235 120 Q 240 120 240 125 L 240 145 Q 240 150 235 150 L 230 150 Q 228 160 220 160 Q 212 160 210 150 L 170 150 Q 168 160 160 160 Q 152 160 150 150 L 145 150 Q 140 150 140 145 L 140 125 Q 140 120 145 120 Z" fill="url(#blue)"/>
+  <rect x="165" y="105" width="25" height="15" fill="#ffffff" opacity="0.3" rx="2"/>
+  <rect x="200" y="105" width="15" height="15" fill="#ffffff" opacity="0.3" rx="2"/>
+  <circle cx="160" cy="155" r="8" fill="url(#silver)"/>
+  <circle cx="220" cy="155" r="8" fill="url(#silver)"/>
+  
+  <!-- Chrome accent line -->
+  <path d="M 145 135 L 235 135" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+</svg>
