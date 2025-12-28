@@ -28,7 +28,7 @@ export async function GET(request: Request) {
       return NextResponse.json({ items: [], total: 0 });
     }
 
-    const total = cart.items?.reduce?.((sum, item) => {
+    const total = cart.items?.reduce?.((sum: number, item: any) => {
       return sum + ((item?.product?.price ?? 0) * (item?.quantity ?? 0));
     }, 0) ?? 0;
 
